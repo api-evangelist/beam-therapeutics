@@ -1,8 +1,26 @@
 aid: beam-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beam-therapeutics.png
 name: Beam Therapeutics *
-description: 'Beam Therapeutics * is a company surfaced as a portfolio company of gv, hongshan and added
-  to the API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Beam Therapeutics is a biotechnology company pioneering precision genetic
+  medicines through base editing, a technology that makes precise, predictable, and
+  efficient single-base changes to the genome without cutting the DNA double helix.
+  The company is developing a portfolio of investigational base editing programs across
+  hematology, hepatology, and other therapeutic areas, using multiple delivery modalities
+  including electroporation, nonviral lipid nanoparticles, and viral vectors. Publicly
+  traded on Nasdaq as BEAM, Beam was named a TIME100 Most Influential Company in 2026.
+  This profile was surfaced as a portfolio company of gv and hongshan; it is a life-sciences
+  company with no public developer/API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/beam-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Genetic Medicine
+- Base Editing
+- Gene Editing
+- Therapeutics
+- Precision Medicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beam-therapeutics-domain-security.yml
 - type: Website
-  url: http://beamtx.com
+  url: https://beamtx.com
+- type: Support
+  url: https://beamtx.com/contact/
+- type: PrivacyPolicy
+  url: https://beamtx.com/privacy-policy/
+- type: TermsOfService
+  url: https://beamtx.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
